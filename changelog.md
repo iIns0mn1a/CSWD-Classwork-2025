@@ -1,6 +1,6 @@
 # ✅Changelog✅
 
-Last Update: March 16, from Desktop
+**Last Update: March 16, from Desktop**
 
 ## March 16, 2025
 - added root folder to github repo
