@@ -44,7 +44,7 @@ else
   $file_array[] = $file;}}closedir($handle);}
 if ($file_array)
 {sort ($file_array);foreach($file_array as $file)
-{echo "<a href='$file'>$file</a><br/>";}}
+{echo "<a href='$file' target='_blank'>$file</a><br/>";}}
 ?>
 <!-- DON'T TOUCH CODE ABOVE THIS LINE -->  
     
