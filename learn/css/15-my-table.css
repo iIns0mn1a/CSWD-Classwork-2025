@@ -12,10 +12,12 @@ header {
     margin: 2em;
     background-color: #A9B5DF;
     padding: 1em;
+    padding-bottom: 2em;
     border-radius: 1.5em;
 }
 
 h1 {
+    padding-top: 1em;
     padding-bottom: 1em;
 }
 
@@ -24,6 +26,12 @@ section {
     padding: 2em;
     margin: 2em;
     border-radius: 1.5em;
+}
+
+img {
+    float: left;
+    margin: 1em;
+    border-radius: 6px;
 }
 
 p {
