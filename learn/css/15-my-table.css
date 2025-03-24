@@ -1,3 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* I AM STRUGGLING SO MUCH WITH COLOR PALETTES. UGHHHHHHHHHHHHHHHHHH */
 body {
-    color: aqua;
+    background-color: #FFF2F2;
+}
+
+header {
+    margin: 2em;
+    background-color: #A9B5DF;
+    padding: 1em;
+    border-radius: 1.5em;
+}
+
+h1 {
+    padding-bottom: 1em;
+}
+
+section {
+    background-color: #A9B5DF;
+    padding: 2em;
+    margin: 2em;
+    border-radius: 1.5em;
+}
+
+p {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-size: 115%;
+}
+
+/* table css */
+section table {
+    border: 2px solid black;
+    border-collapse: collapse;
+    
+}
+
+section tr, td, th {
+    border: 2px solid black;
+    padding: 1px 6px;
+}
+
+section th {
+    background-color: #7886C7;
 }
