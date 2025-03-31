@@ -1,0 +1,106 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>58-learn-forms.html - Gilroy McCalla Jr. </title>
+    
+    <link rel="stylesheet" type="text/css" href="css/00-template-00basic.css">
+
+    <style>
+        textarea { height: 5em; width: 25em; }
+        #myForm1 {
+            background-color: aquamarine;
+            padding: 15px;
+        
+        }
+        label {
+            float: left;
+            width: 10em;
+            text-align: right;}
+        input {
+            margin-left: 1em;
+            margin-bottom: .5em;}
+        #button {
+            margin-left: 7em;}
+        legend {font-weight: bolder;color: red;
+            font-size: 125%;
+            margin-bottom: .5em;
+        }
+    </style>
+
+
+</head>
+<body>
+
+<h1>58-learn-forms.html</h1>
+<hr>
+
+
+<h2>Form #1</h2>
+<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium eum distinctio nobis qui, delectus fugiat libero? Pariatur, vel voluptatem quasi natus quis iusto eum et, odio cum culpa eos laboriosam?</p>
+
+<blockquote></blockquote>
+<form id="myform1" method="POST" action="display-form-data.php">
+    <input type="hidden" id="formName" name="formName" value="myform1">
+    
+    <label for="anydata">Anydata:</label>
+    <input type="text" id="anydata" name="anydata" required><br>
+
+    <fieldset>
+        <legend>Contact Information</legend>
+
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" name="FirstName" ><br>
+
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="LastName" name="LastName" ><br>
+
+        <p>Please enter your e-mail address to subscribe to our newsletter.</p>
+        <label for="email">eMail:</label>
+        <input type="email" id="email" name="email" placeholder="Enter email here" required></p>
+
+        <p>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" maxlength="6" placeholder="Enter your password">
+        </p>
+    </fieldset>
+
+    <fieldset>
+        <p>
+            <input type="submit" id="submit" name="submit" value="Subscribe">
+            <input type="reset"  id="resetform" value="Reset">
+        </p>
+    </fieldset>
+
+</form>
+</blockquote>
+
+
+<hr>
+<h2>Form #2</h2>
+<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis corporis nobis dolorem blanditiis aspernatur laborum facilis quia? Delectus, itaque, iure aspernatur assumenda cupiditate molestiae quod facilis nulla eos inventore quibusdam?</p>
+
+<form id="myform2" method="POST" action="display-form-data-pretty.php">
+    <input type="hidden" id="formName" name="formName" value="myform2">
+    <label for="anydata">Anydata:</label>
+    <input type="text" id="anydata" name="anydata"><br>
+
+
+
+
+    <p>
+        <input type="submit" id="submit2" name="submit2" value="Subscribe-2">
+        <input type="reset"  id="resetform" value="Reset">
+    </p>
+</form>
+
+<hr>
+<address>
+    &copy; 2025 - Prof. Paul Gruhn
+</address>
+
+
+
+</body>
+</html>

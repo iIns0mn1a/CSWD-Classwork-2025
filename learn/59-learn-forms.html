@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>59-learn-forms.html - Prof. Paul Gruhn</title>
+    <link rel="stylesheet" type="text/css" href="css/00-template-00basic.css">
+</head>
+<body>
+
+<h1>59-learn-forms.html</h1>
+<h2><a href="https://www.w3schools.com/html/html_forms.asp" target="_blank">https://www.w3schools.com/html/html_forms.asp</a></h2>
+<hr>
+
+<form id="myform1" method="POST" action="display-form-data.php">
+
+    <label for="fullName">Full Name:</label>
+    <input type="text" id="fullName" name="fullName" ><br>
+
+<fieldset>
+    <legend>Date Fields</legend>
+
+    <br>
+Date and time:&nbsp;&nbsp;
+    <input type="datetime" name="datetime" id="datetime"><br><br>
+Local date and time:&nbsp;&nbsp;
+    <input type="datetime-local"
+           id="datetimelocal" name="datetimelocal"><br><br>
+Month:&nbsp;&nbsp;
+    <input type="month" id="month" name="month"><br><br>
+Week:&nbsp;&nbsp;
+    <input type="week" id="week" name="week"><br><br>
+Time:&nbsp;&nbsp;
+    <input type="time" id="time" name="time"><br><br>
+Date:&nbsp;&nbsp;
+    <input type="date" id="date" name="date">
+</fieldset>
+
+<br>
+<fieldset>
+    <legend>Crust</legend>
+    <input type="radio" name="crust" id="crust1" value="thin">
+    <label for="crust">Thin Crust</label><br>
+    <input type="radio" name="crust" id="crust2" value="deep">
+    <label for="crust">Deep Dish</label><br>
+    <input type="radio" name="crust" id="crust3" value="stuffed">
+    <label for="crust">Stuffed Crust</label><br>
+    <input type="radio" name="crust" id="crust4" value="na">
+    <label for="crust">NA</label><br>
+</fieldset>
+
+<br>
+<fieldset>
+    <legend>Toppings</legend>
+    <input type="checkbox" name="topping1" id="topping1" value="pepperoni">
+    <label for="topping">Pepperoni</label><br>
+    <input type="checkbox" name="topping2" id="topping2" value="mushroom">
+    <label for="topping">Mushroom</label><br>
+    <input type="checkbox" name="topping3" id="topping3" value="Onions">
+    <label for="topping">Onions</label><br>
+</fieldset>
+
+<br>
+<fieldset>
+    <legend>Just for fun</legend>
+    <label for="firstcolor">Choose your first background color:</label>
+    <input type="color" id="firstcolor" name="firstcolor" value="#facd8a">
+    <br><br>
+    <label for="book">Rate the book from 1 to 5: </label>
+    <input type="range" id="book" name="book" min="1" max="5" step="1">
+    <br><br>
+    
+    <label for="investment">Monthly investment: </label>
+    <input type="number" id="investment" name="investment" min="100" max="1000" step="100" value="300">
+    <br>
+    <label for="email">Your <u>E</u>mail address:</label>
+    <input type="email" id="email" name="email" required accesskey="E">
+    <br>
+    <label for="link">Your website:</label>
+    <input type="url" id="link" name="link" list="links">
+    <br>
+    <label for="phone">Your phone number:</label>
+    <input type="tel" id="phone" name="phone" required pattern="\d{3}[\-]\d{3}[\-]\d{4}"  title="Must be 999-999-9999">
+    <br>
+    <button type="button" onclick="alert('Hello World!');">Click Me!</button>
+    <br>
+    <h3>DataList Example</h3>
+    <input list="browsers">
+  <datalist id="browsers">
+    <option value="Edge">
+    <option value="Firefox">
+    <option value="Chrome">
+    <option value="Opera">
+    <option value="Safari">
+  </datalist>
+</fieldset>
+<br>
+
+<h3>Textarea Example</h3>
+<label for="w3review">Review of W3Schools:</label>
+<br>
+<textarea id="w3review" name="w3review" rows="4" cols="50">
+At w3schools.com you will learn how to make a website. They offer free tutorials in all web development technologies.
+</textarea>
+<br>
+
+<br>
+<fieldset>
+    <legend>SELECT BOX EXAMPLES</legend>
+
+    <label for="cars1">Choose a car (1):</label>
+    <select name="cars1" id="cars1">
+      <option value="volvo">Volvo</option>
+      <option value="saab">Saab</option>
+      <option value="mercedes">Mercedes</option>
+      <option value="audi">Audi</option>
+    </select>
+
+    <label for="cars2">Choose a car (2):</label>
+    <select name="cars2" id="cars2">
+      <optgroup label="Swedish Cars">
+        <option value="volvo">Volvo</option>
+        <option value="saab">Saab</option>
+      </optgroup>
+      <optgroup label="German Cars">
+        <option value="mercedes">Mercedes</option>
+        <option value="audi">Audi</option>
+      </optgroup>
+    </select>
+
+<br><br>
+
+    <label for="cars3">Choose a car (3):</label>
+
+    <select id="cars3" size="7" multiple>
+      <option value="volvo">Volvo</option>
+      <option value="saab">Saab</option>
+      <option value="opel">Opel</option>
+      <option value="audi">Audi</option>
+    </select>
+
+<br><br>
+
+
+
+
+
+
+
+</fieldset>
+<br>
+    <fieldset>
+        <legend>Actions</legend>
+        <p>
+            <input type="submit" id="submit" name="submit" value="Subscribe">
+            <input type="reset"  id="resetform" value="Reset">
+        </p>
+    </fieldset>
+</form>
+
+<br><br><hr><hr>
+<h2>Upload a file form example</h2>
+<form id="upload_form" action="NA" method="post" enctype="multipart/form-data">
+    Attach an image:<br>
+    <input type="file" id="fileupload" accept="image/jpeg, image/gif">
+    <p>
+        <input type="submit" id="submit" name="submit" value="Subscribe">
+        <input type="reset"  id="resetform" value="Reset">
+    </p>
+</form>
+<hr>
+
+
+
+
+</body>
+</html>
