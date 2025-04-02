@@ -1,6 +1,9 @@
 # ✅Changelog✅
 
-**Last Update: March 16, from Desktop**
+**Last Update: April 2nd, from 2 in 1**
+
+## April 2nd, 2025
+- bootstrap lesson added. first framwork???
 
 ## March 24, 2025
 - speedrunning assignments, working on actual site things now
