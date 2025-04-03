@@ -1,0 +1,39 @@
+body {
+    background-color: #3B1E54;
+}
+
+section {
+    background-color: #9B7EBD;
+    margin-top: 20px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 20px;
+}
+
+nav {
+    text-align: center;
+    background-color: #D4BEE4;
+    border-radius: 20px;
+    margin: 1em 40%;
+    padding-top: .5em;
+    padding-bottom: .5em;
+}
+
+h2{
+    text-align: center;
+    background-color: #D4BEE4;
+    padding-left: 1em;
+    padding-right: 1em;
+    border-radius: 10px;
+    margin-left: 35%;
+    margin-right: 35%;
+}
+
+p {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+h1 {
+    text-align: center;
+}
