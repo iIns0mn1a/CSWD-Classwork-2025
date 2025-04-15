@@ -20,27 +20,26 @@
 <body>
     <main class="container-fluid">
 
-
-        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+          <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
             <div class="container-fluid">
               <ul class="navbar-nav">
                 <li class="nav-item">
-                  <a class="nav-link active" href="#">Home</a>
+                  <a class="nav-link active" href="index.html">Home</a>
                 </li>
                 <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Ice Skating</a>
+                  <a class="nav-link dropdown-toggle" href="ice-skating.html" role="button" data-bs-toggle="dropdown">Ice Skating</a>
                   <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Link</a></li>
+                    <li><a class="dropdown-item" href="ice-hockey.html">ice hockey</a></li>
                   </ul>
                 </li> 
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Roller Skating</a>
+                  <a class="nav-link" href="roller-skating.html">Roller Skating</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Skateboarding</a>
+                  <a class="nav-link" href="longboarding.html">Longboarding</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link disabled" href="#">Free-Skating</a>
+                  <a class="nav-link disabled" href="free-skating.html">Free-Skating</a>
                 </li>
                 </li>
                 <li class="nav-item">
@@ -52,7 +51,7 @@
 
 
         <div class="row">
-            <h1>Project Index</h1>
+            <h1>Contact form</h1>
         </div>
 
         <div class="row">
