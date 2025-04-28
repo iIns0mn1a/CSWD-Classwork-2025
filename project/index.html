@@ -4,24 +4,33 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content= "width=device-width, initial-scale=1.0"> 
-    <title>Project Home Page - Gilroy McCalla Jr.</title>
+    <title>Skating Home - Gilroy McCalla Jr.</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <script src="js/bootstrap.bundle.min.js"></script>
 
 
-    <link rel="stylesheet" type="text/css" href="YOUR CUSTOM CSS FILE HERE">
+    <link rel="stylesheet" type="text/css" href="css/final-project-style.css">
 
 <style>
-    body {background-color: aqua;}
-    main {background-color: beige;}
+/* going to learn how to correctly use different places for style, css file will hold universal css style, style tag will hold page specific stuf. */
+    #center {
+      text-align: center;
+    }
+
+    #intro {
+      padding-left: 2em;
+      padding-right: 2em;
+    }
+    
+    #right {
+      text-align: right;
+    }
+    
 </style>
 
 </head>
-<body>
-    <main class="container-fluid">
 
-
-      <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+<nav class="navbar navbar-expand-md bg-dark navbar-dark ">
         <div class="container-fluid">
           <ul class="navbar-nav">
             <li class="nav-item">
@@ -41,7 +50,7 @@
               <a class="nav-link" href="longboarding.html">Longboarding</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled" href="free-skating.html">Free-Skating</a>
+              <a class="nav-link " href="free-skating.html">Free-Skating</a>
             </li>
             </li>
             <li class="nav-item">
@@ -51,28 +60,97 @@
         </div>
       </nav>
 
+<body>
+    <main class="container-fluid">
 
         <div class="row">
-            <h1>Project Index</h1>
+            <div class="col-md-12" id="center">
+
+              <h1>Skating</h1>
+              <hr>
+            </div>
+        </div>
+
+        <div class="row" id="intro">
+
+          
+        <p>Whether you're gliding across ice, rolling down the street, or carving up the pavement on a skateboard, skating is all about freedom, movement, and fun! In this website, you'll be introduced to different types of skating you might be interested in!</p>            
+
         </div>
 
         <div class="row">
 
-            <h2>Point 1</h2>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium eum distinctio nobis qui, delectus fugiat libero? Pariatur, vel voluptatem quasi natus quis iusto eum et, odio cum culpa eos laboriosam?</p>
-            
-
+        <p id="center">Below will be small intros to the different types of skating that will be expanded on in this website!</p>
         </div>
+        
+        <div class="row"> <!-- ice skating-->
 
-        <div class="row">
-
-            <h2>Point 2</h2>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis corporis nobis dolorem blanditiis aspernatur laborum facilis quia? Delectus, itaque, iure aspernatur assumenda cupiditate molestiae quod facilis nulla eos inventore quibusdam?</p>
-            
-
+          <div class="col-md-4">
+            <img src="img/ice-skating.jpg" alt="ice skating">
+          </div>
+          <div class="col-md-4"></div>
+          <div class="col-md-4" id="right">
+            <h2>Ice Skating</h2>
+            <p>The feeling of gliding across the ice could never be topped. The freedom you feel within that rink is <i>euphoric</i>. Let me tell you a bit about ice skating. </p>
+          </div>
         </div>
+        
+        <div class="row"> <!-- ice hockey-->
+          
+          <div class="col-md-4">
+            <h2>Ice Hockey</h2>
+            <p>Fast and aggressive. These two adjective sit at the very heart of ice hockey. From slapshots to slapfights, Come find out here!</p>
+          </div>
+          <div class="col-md-4"></div>
+          <div class="col-md-4">
+            <img src="img/ice-hockey.jpg" alt="ice hockey">
+          </div>
+        </div>
+        
+        <div class="row"> <!-- roller skating-->
+          
+          <div class="col-md-4">
+            <img src="img/roller-skating.jpg" alt="roller skating">
+          </div>
+          <div class="col-md-4"></div>
+          <div class="col-md-4" id="right">
+            <h2>Roller Skating</h2>
+            <p>Explore the world on 4 wheels! The best joy of roller skating is being able to explore anywhere. The roller skating webpage will tell you all you need to know.</p>
+          </div>
+        </div>
+        
+        <div class="row"> <!-- longboarding-->
+        
+          <div class="col-md-4">
+            <h2>Longboarding</h2>
+            <p>From cozy cruises around the world, to barreling down hills at 45 mph. Longboarding has grown to be a very entertaining sport, separate from its parent; skateboarding. Learn some of the basics on the longboarding page.</p>
+          </div>
+          <div class="col-md-4"></div>
+          <div class="col-md-4">
+            <img src="img/longboarding.jpg" alt="longboarding">
+          </div>
+        </div>
+        
+        <div class="row"> <!-- free skating-->
+          
+          <div class="col-md-4">
+            <img src="img/free-skating.jpg" alt="freeskating">
+          </div>
+          <div class="col-md-4"></div>
+          <div class="col-md-4" id="right">
+            <h2>Freeskating</h2>
+            <p>A new "free" twist on roller skating. By combining both roller skating and skateboarding, freeskating was born for an even more simple way of traveling. Check it out on the Freeskating page!</p>
+          </div>
+        </div>
+        
+     
+        
+      </main>  
 
-    </main>
-    outside the main
+      <footer>
+        <p style="color: white; text-align: center;"> &copy; 2025 Gilroy McCalla Jr. All rights reserved.</p>
+      </footer>
+
+
 </body>
 </html>
