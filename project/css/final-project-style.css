@@ -7,7 +7,6 @@ main {background-color: hsl(36, 11%, 53%);
   margin-top: .5em;
   margin-bottom: .5em;
   margin: .5em .125em;
-  border-top: .3em solid white; /*debating on keeping this into a full border or changing it,*/
-  border-radius: .8em; /* kinda like how it looks with the top border style, might take out tho  */
+
   padding: .2em;
 }
